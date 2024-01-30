@@ -1,3 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .sitetitle {
     color: blue;    
+}
+
+.booktitle {
+    text-align: center;
+    background-color: gray;
+    border-radius: 0.25cm;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1pt;
+}
+
+.titleheader {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.headersub {
+    color: rgb(45, 73, 116);
+}
+
+.bookcontent {
+    justify-content: space-evenly;
+    text-align: justify;
 }
