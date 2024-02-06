@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lavender
+}
+
+.site-title-header {
+    scale: 2.5;
+    color: white;
+}
+
+.site-title {
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 1%;
+    background-color: cadetblue; 
+    border-radius: 0.5cm; 
+    padding: 1%; 
+    text-align: center; 
+    min-width: 100px; 
+    max-width: 1000px;
+}
+
+.section {
+    background-color: cadetblue;
+    display: block;
+    margin: 0 auto;
+    
+    color: white;
+    border-radius: 0.2cm;
+    padding: 1%;
+    
+    min-width: 100px; 
+    max-width: 1000px;
+}
+
+td {
+    border: 1px solid white;
+    padding: 5px;
+}
+th {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 5px;
+}
+
+table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}

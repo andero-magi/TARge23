@@ -22,6 +22,8 @@
     margin-top: 1rem;
     margin-left: 20%;
     margin-right: 20%;
+    min-width: 590px;
+    max-width: 1000px;
     padding: 1pt;
 }
 
@@ -35,6 +37,8 @@
     margin-left: 20%;
     margin-right: 20%;
     padding: 10pt;
+    min-width: 590px;
+    max-width: 1000px;
 }
 
 .titleheader {
@@ -42,11 +46,26 @@
     margin-bottom: 0 !important;
 }
 
-.headersub {
-
+.subheader {
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(133, 133, 133);
+    color: rgb(227, 236, 250);
+    border-radius: 0.25cm;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10pt;
+    min-width: 590px;
+    max-width: 1000px;
 }
 
-.sitefooter {
+.subheader-sep {
+    opacity: 25%;
+}
+
+.linkstyle {
     color: mintcream;
 }
 
@@ -63,6 +82,8 @@
     color: lightcyan;
     clear: both;
     display: block;
+    min-width: 590px;
+    max-width: 1000px;
 }
 
 .img-header {
