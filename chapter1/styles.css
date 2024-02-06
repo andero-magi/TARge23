@@ -2,17 +2,39 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.basebody {
+    background-color: rgb(14, 14, 14);
+    background-image: url('assets/pepega.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .sitetitle {
-    color: blue;    
+    color: rgb(167, 167, 255);    
 }
 
 .booktitle {
     text-align: center;
-    background-color: gray;
+    background-color: rgb(94, 94, 94);
+    color: rgb(227, 236, 250);
     border-radius: 0.25cm;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 1pt;
+}
+
+.bookfooter {
+    text-align: center;
+    background-color: rgb(102, 102, 102);
+    color: rgb(227, 236, 250);
+    border-radius: 0.25cm;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10pt;
 }
 
 .titleheader {
@@ -21,10 +43,37 @@
 }
 
 .headersub {
-    color: rgb(45, 73, 116);
+
+}
+
+.sitefooter {
+    color: mintcream;
 }
 
 .bookcontent {
     justify-content: space-evenly;
     text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25pt;
+    padding: 20pt;
+    border-radius: 10%;
+    border-radius: 0.1cm;
+    background-color: gray;
+    color: lightcyan;
+    clear: both;
+    display: block;
+}
+
+.img-header {
+    border-radius: 20%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: optimizeQuality;
+    display: block;
+}
+
+.ulist {
+    transform: translateX(3%);
 }

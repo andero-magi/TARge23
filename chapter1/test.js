@@ -1,8 +1,13 @@
 console.log("Hello, world!");
 
 const elem = document.getElementById("sub");
-console.log(elem);
-elem.style = {
-    color: "crimson"
+
+if (elem == null) {
+    console.warn("Element with id `sub` not found!")
+} else {
+    console.log(elem);
+    elem.style = {
+        color: "crimson"
+    }
+    elem.innerText = "Hello, world!";
 }
-elem.innerText = "Hello, world!";
