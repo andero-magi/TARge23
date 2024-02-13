@@ -21,6 +21,7 @@ body {
     text-align: center; 
     min-width: 100px; 
     max-width: 1000px;
+    margin-bottom: 60px;
 }
 
 .section {
@@ -35,7 +36,7 @@ body {
     min-width: 100px; 
     max-width: 1000px;
 
-    margin-bottom: 1%;
+    margin-bottom: 40px;
 }
 
 td {
