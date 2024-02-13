@@ -12,7 +12,7 @@
         <h1 class="site-title-header">HTML things</h1>
     </span>
     <span class="section">
-        <h1 class="section-title">Tables</h1>
+        <h1 class="section-title">CH6: Tables</h1>
 
         <table>
             <thead>
@@ -33,6 +33,7 @@
             <thead>
                 <th>Row 1</th>
                 <th>Row 2</th>
+                <th>Row 3</th>
             </thead>
             <tr>
                 <td rowspan="2">Row 1</td>
@@ -43,5 +44,86 @@
             </tr>
         </table>
     </span>
+
+
+    <span class="section">
+        <h1 class="section-title">CH7: Buttons</h1>
+
+        <form action="https://example.net/example.php">
+            Which device are you on? <br>
+            <select name="devices">
+                <option value="iphone">iPhone</option>
+                <option value="ipwn">iPwn</option>
+                <option value="ipad">iPad</option>
+            </select>
+    
+            <p>
+                Upload a file :)
+                <br>
+                <input type="file" name="userSong"/>
+            </p>
+    
+            <p>
+                Type something :)
+                <br>
+                <input type="text" name="email">
+            </p>
+
+            <fieldset>
+                <legend>Contact details</legend>
+                <label>Email: <br><input type="email" name="email"></label><br>
+                <label>Mobile: <br><input type="tel" name="mobile"></label><br>
+                <label>Telephone: <br><input type="tel" name="tel"></label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dates</legend>
+                <label>Departure date: <input type="date" name="dep"></label>
+                <br>
+                <label>Arrival date: <input type="date" name="arrive"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Login details</legend>
+
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required="required">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required="required">
+            </fieldset>
+
+            <p>
+                Gender:
+                <input type="radio" name="gender" id="female" value="f">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male" value="m">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="other" value="o">
+                <label for="other">Other</label>
+            </p>
+
+            <p>
+                Instruments
+                <br>
+                <select name="Instruments" multiple="multiple">
+                    <option value="guitar" selected="selected">Guitar</option>
+                    <option value="drums">Drums</option>
+                    <option value="piano">Piano</option>
+                    <option value="bass">Bass</option>
+                </select>
+            </p>
+
+            <p>
+                Comment:
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </p>
+
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </span>
+
 </body>
 </html>
