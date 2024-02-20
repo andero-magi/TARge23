@@ -1,58 +1,122 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: lavender
+  background-color: lavender;
+  overflow-x: hidden;
 }
 
 .site-title-header {
-    scale: 2.5;
-    color: white;
+  scale: 2.5;
+  color: white;
+}
+
+.rg-grad {
+  background: linear-gradient(0.25turn, hsl(0, 100%, 50%), hsl(241, 50%, 47%));
+  color: transparent !important;
+  background-clip: text;
+  margin: 0px auto;
+  padding: 0px auto;
+  min-width: auto;
+  max-width: auto;
+  width: fit-content;
+  text-align: left;
+  font-size: 300%;
 }
 
 .site-title {
-    display: block; 
-    margin: 0 auto; 
-    margin-bottom: 1%;
-    background-color: cadetblue; 
-    border-radius: 0.5cm; 
-    padding: 1%; 
-    text-align: center; 
-    min-width: 100px; 
-    max-width: 1000px;
-    margin-bottom: 60px;
+  display: block; 
+  margin: 0 auto; 
+  margin-bottom: 1%;
+  background-color: cadetblue; 
+  border-radius: 0.5cm; 
+  padding: 1%; 
+  text-align: center; 
+  min-width: 100px; 
+  max-width: 1000px;
+  margin-bottom: 60px;
 }
 
 .section {
-    background-color: cadetblue;
-    display: block;
-    margin: 0 auto;
-    
-    color: white;
-    border-radius: 0.2cm;
-    padding: 1%;
-    
-    min-width: 100px; 
-    max-width: 1000px;
+  background-color: cadetblue;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  align-items: flex-start;
+  
+  color: white;
+  border-radius: 0.2cm;
+  padding: 1%;
+  
+  min-width: 100px; 
+  max-width: 1000px;
 
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  margin: auto;
+  border-radius: 0.5cm;
+  background-color: rgb(127, 201, 182);
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.toc-entry {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(127, 201, 182);
+  padding: 1%;
+  border-radius: 0.5cm;
+}
+
+.toc-entry:hover {
+  background-color: rgb(127, 201, 158);
+}
+
+.toc-entry-href {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  color: white;
 }
 
 td {
-    border: 1px solid white;
-    padding: 5px;
+  border: 1px solid white;
+  padding: 5px;
 }
 th {
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.164);
-    padding: 5px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.164);
+  padding: 5px;
 }
 
 table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    border-collapse: collapse;
-    margin-bottom: 1%;
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin-bottom: 1%;
+}
+
+a {
+  color: lightskyblue;
+}
+
+/* Tik Tok Embed style overries */
+iframe body {
+  background-color: cadetblue !important;
+  background: cadetblue !important;
+}
+
+.css-g03djc e1osuh9m0 {
+  background-color: cadetblue !important;
+  background: cadetblue !important;
+}
+.css-1r2yhgy evf3f5610 {
+  background-color: white !important;
+  background: white !important;
 }

@@ -1,139 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML things</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="toc-gen.js"></script>
 </head>
 <body>
-    <span class="site-title">
-        <h1 class="site-title-header">HTML things</h1>
-        <p style="color: white;">Andero Magi TARge23</p>
-    </span>
-    <span class="section">
-        <h1 class="section-title">CH6: Tables</h1>
+  <div class="site-title">
+    <h1 class="site-title-header">HTML things</h1>
+    <p style="color: white;">Andero Magi TARge23</p>
+  </div>
 
-        <table>
-            <thead>
-                <th>Row 1</th>
-                <th>Row 2</th>
-            </thead>
-            <tr>
-                <td>Row 1</td>
-                <td>Row 2</td>
-            </tr>
-            <tr>
-                <td>SSASD</td>
-                <td>ASDASDSAD</td>
-            </tr>
-        </table>
+  <div class="section" id="toc">
+    <h1 class="section-title">Table Of Contents</h1>
+  
+  </div>
 
-        <table>
-            <thead>
-                <th>Row 1</th>
-                <th>Row 2</th>
-                <th>Row 3</th>
-            </thead>
-            <tr>
-                <td rowspan="2">Col 1</td>
-            </tr>
-            <tr>
-                <td>SSASD</td>
-                <td>ASDASDSAD</td>
-            </tr>
-        </table>
-    </span>
+  <div class="section" id="toc">
+    <h1 class="section-title">Chapter 1: Paragraphs</h1>
+
+    <h1>This is the Body of the Page</h1>
+    <p>This is the Para of the Page</p>
+  
+    <h2>This is a Sub-Heading</h2>
+    <p>This is the Para of the Page</p>
+    <!-- kommentaar -->
+    <h6>This is a Sub-Heading 2</h6>
+    <p>This is the Para of the Page</p>
+  </div>
+
+  <div class="section" id="toc">
+    <h1 class="section-title">Chapter 2: More complex text</h1>
+    <h1>The Story in the Book</h1>
+    <h2>The Story in the Book</h2>
+    <h3>The Story in the Book</h3>
+    <h4>The Story in the Book</h4>
+    <h5>The Story in the Book</h5>
+    <h6>The Story in the Book</h6>
+    <p>This is the text <i>Nature</i>, <i>New Scientist</i></p>
+    <p>This is the text <cite>On the Road</cite></p>
+    <p>This is the text Nature New Scientist, <q>This is the text Nature New Scientist</q></p>
+    <p>This is the text <abbr title="Deoxyribonucleic acid">DNA</abbr></p>
+    <p>This is the text <em>On the Road</em></p>
+    <p><acronym title="National Aeronautics and Space Administration">NASA</acronym></p>
+    <p><a href="mailto:homer@example.org">homer@example.org</a></p>
+    <p>This is the text <b>On the Road</b></p>
+    <p>A <dfn>black hole</dfn> is a region of space from which nothing can escape, not even light, can escape.</p>
+    <hr />
+    <p>Venus is the only planet that rotates clockwise</p>
+    <p>Jupiter is <del>bigger</del> than all the other <ins>planets</ins> combined.</p>
+    <p>Venus is the only <br/> planet that rotates clockwise. <br/>The Earth gets one hundred tons heavier every day.</p>
+    <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+      <p>Did you ever stop to think, and forget to start again?</p>
+    </blockquote>
+    <hr />
+    <p>Laptop computer:</p>
+    <p><s>Was $1000</s></p>
+    <p>Now only $10</p>
+    <p><strong>Beware:</strong> Pickpockets operate in this area.</p>
+    <p>On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup></p>
+    <p>On the 4<sub>th</sub> of September you will learn about E=MC<sub>2</sub></p>
+    <p>The moon      is drifting away from Earth.</p>
+    <p>The moon is drifting away from Earth.</p>
+  </div>
+
+  <div class="section" id="toc">
+    <h1 class="section-title">Chapter 3: Lists</h1>
+
+    <h2>Dictionary</h2>
+    <dl>
+      <dt>Haug</dt>
+      <dd>Eesti vetes elav röövkala</dd>
+      <dt>Räim</dt>
+      <dd>Maitsev ja süüakse hapukoore ja sibulaga</dd>
+      <dd>Seda kala sobib ka küpsetada</dd>
+      <dt>Lõhe</dt>
+      <dt>Lõhe</dt>
+      <dd>Rändkala, kes ujub ka ookeanis</dd>
+    </dl>
+
+    <h2>Nested list</h2>
+    <ul>
+      <li>Mousses</li>
+      <li>Pastries
+        <ul>
+          <li>Croissant</li>
+          <li>Mille-feuille</li>
+          <li>Palmier</li>
+          <li>Profiterole</li>
+        </ul>
+      </li>
+      <li>Tarts</li>
+    </ul>
+
+    <h2>Ordered vs Unordered list</h2>
+    <ol>
+      <li>Potatoes</li>
+      <li>Salted water</li>
+      <li>Warm milk</li>
+      <li>Mashed potatoes</li>
+      <li>Milkshake</li>
+    </ol>
+  
+    <ul>
+      <li>Potatoes</li>
+      <li>Salted water</li>
+      <li>Warm milk</li>
+      <li>Mashed potatoes</li>
+      <li>Milkshake</li>
+    </ul>
+  </div>
+
+  <div class="section" id="toc">
+    <h1 class="section-title">Chapter 4: &lt;a href&gt;</h1>
+
+  </div>
+
+  <div class="section" id="toc">
+    <h1 class="section-title">Chapter 5: Images</h1>
+
+  </div>
+
+  <div class="section">
+    <h1 class="section-title">Chapter 6: Tables</h1>
+
+    <table>
+      <thead>
+        <th>Row 1</th>
+        <th>Row 2</th>
+      </thead>
+      <tr>
+        <td>Row 1</td>
+        <td>Row 2</td>
+      </tr>
+      <tr>
+        <td>SSASD</td>
+        <td>ASDASDSAD</td>
+      </tr>
+    </table>
+
+    <table>
+      <thead>
+        <th>Row 1</th>
+        <th>Row 2</th>
+        <th>Row 3</th>
+      </thead>
+      <tr>
+        <td rowdiv="2">Col 1</td>
+      </tr>
+      <tr>
+        <td>SSASD</td>
+        <td>ASDASDSAD</td>
+      </tr>
+    </table>
+  </div>
 
 
-    <span class="section">
-        <h1 class="section-title">CH7: Buttons</h1>
+  <div class="section">
+    <h1 class="section-title">Chapter 7: Buttons</h1>
 
-        <form action="https://example.net/example.php">
-            Which device are you on? <br>
-            <select name="devices">
-                <option value="iphone">iPhone</option>
-                <option value="ipwn">iPwn</option>
-                <option value="ipad">iPad</option>
-            </select>
+    <form action="https://example.net/example.php">
+      Which device are you on? <br>
+      <select name="devices">
+        <option value="iphone">iPhone</option>
+        <option value="ipwn">iPwn</option>
+        <option value="ipad">iPad</option>
+      </select>
+  
+      <p>
+        Upload a file :)
+        <br>
+        <input type="file" name="userSong"/>
+      </p>
+  
+      <p>
+        Type something :)
+        <br>
+        <input type="text" name="email">
+      </p>
+
+      <fieldset>
+        <legend>Contact details</legend>
+        <label>Email: <br><input type="email" name="email"></label><br>
+        <label>Mobile: <br><input type="tel" name="mobile"></label><br>
+        <label>Telephone: <br><input type="tel" name="tel"></label><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dates</legend>
+        <label>Departure date: <input type="date" name="dep"></label>
+        <br>
+        <label>Arrival date: <input type="date" name="arrive"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Login details</legend>
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required="required">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required="required">
+      </fieldset>
+
+      <p>
+        Gender:
+        <input type="radio" name="gender" id="female" value="f">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="male" value="m">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="other" value="o">
+        <label for="other">Other</label>
+      </p>
+
+      <p>
+        Instruments
+        <br>
+        <select name="Instruments" multiple="multiple">
+          <option value="guitar" selected="selected">Guitar</option>
+          <option value="drums">Drums</option>
+          <option value="piano">Piano</option>
+          <option value="bass">Bass</option>
+        </select>
+      </p>
+
+      <p>
+        Comment:
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      </p>
+
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="section">
+    <h1 class="section-title">Chapter 8: Embedding</h1>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@odruidals/video/7291396201742748960" data-video-id="7291396201742748960" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@odruidals" href="https://www.tiktok.com/@odruidals?refer=embed">@odruidals</a> He s really cool but i have to skip for the women🫦<a title="genshinimpact" target="_blank" href="https://www.tiktok.com/tag/genshinimpact?refer=embed">#genshinimpact</a> <a title="genshin" target="_blank" href="https://www.tiktok.com/tag/genshin?refer=embed">#genshin</a> <a title="genshinedit" target="_blank" href="https://www.tiktok.com/tag/genshinedit?refer=embed">#genshinedit</a> <a title="genshin41" target="_blank" href="https://www.tiktok.com/tag/genshin41?refer=embed">#genshin41</a> <a title="wriothesley" target="_blank" href="https://www.tiktok.com/tag/wriothesley?refer=embed">#wriothesley</a> <a title="wriothesleygenshin" target="_blank" href="https://www.tiktok.com/tag/wriothesleygenshin?refer=embed">#wriothesleygenshin</a> <a title="wriothesleygenshinimpact" target="_blank" href="https://www.tiktok.com/tag/wriothesleygenshinimpact?refer=embed">#wriothesleygenshinimpact</a> <a title="wriothesleyedit" target="_blank" href="https://www.tiktok.com/tag/wriothesleyedit?refer=embed">#wriothesleyedit</a> <a target="_blank" title="♬ toxic slowed remix - atlantics" href="https://www.tiktok.com/music/toxic-slowed-remix-7289487474873633542?refer=embed">♬ toxic slowed remix - atlantics</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+  </div>
+
+  <div class="section">
+    <h1 class="section-title">Chapter 9: Audio And Video</h1>
+    I didn't do this part :(
+  </div>
+  <div class="section">
+    <h1 class="section-title">Chapter 11: Opacity and colors or something</h1>
+    <div class="rg-grad"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minima inventore id aliquid quae iure! Nisi eum veritatis laboriosam maxime incidunt laudantium voluptates illo modi perspiciatis iste eligendi, nam corrupti.</b></div>
+  </div>
+  <div class="section">
+    <h1 class="section-title">Chapter 12: Shapes and shadows</h1>
     
-            <p>
-                Upload a file :)
-                <br>
-                <input type="file" name="userSong"/>
-            </p>
-    
-            <p>
-                Type something :)
-                <br>
-                <input type="text" name="email">
-            </p>
+  </div>
 
-            <fieldset>
-                <legend>Contact details</legend>
-                <label>Email: <br><input type="email" name="email"></label><br>
-                <label>Mobile: <br><input type="tel" name="mobile"></label><br>
-                <label>Telephone: <br><input type="tel" name="tel"></label><br>
-            </fieldset>
+  <div class="section">
+    <h1 class="section-title">Chapter 14: Cursori asi</h1>
 
-            <fieldset>
-                <legend>Dates</legend>
-                <label>Departure date: <input type="date" name="dep"></label>
-                <br>
-                <label>Arrival date: <input type="date" name="arrive"></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Login details</legend>
-
-                <label for="username">Username:</label>
-                <input type="text" name="username" id="username" required="required">
-                <br>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required="required">
-            </fieldset>
-
-            <p>
-                Gender:
-                <input type="radio" name="gender" id="female" value="f">
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="male" value="m">
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="other" value="o">
-                <label for="other">Other</label>
-            </p>
-
-            <p>
-                Instruments
-                <br>
-                <select name="Instruments" multiple="multiple">
-                    <option value="guitar" selected="selected">Guitar</option>
-                    <option value="drums">Drums</option>
-                    <option value="piano">Piano</option>
-                    <option value="bass">Bass</option>
-                </select>
-            </p>
-
-            <p>
-                Comment:
-                <br>
-                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-            </p>
-
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-    </span>
-
-    <span class="section">
-        <h1 class="section-title">Chapter 8: Embedding</h1>
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@odruidals/video/7291396201742748960" data-video-id="7291396201742748960" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@odruidals" href="https://www.tiktok.com/@odruidals?refer=embed">@odruidals</a> He s really cool but i have to skip for the women🫦<a title="genshinimpact" target="_blank" href="https://www.tiktok.com/tag/genshinimpact?refer=embed">#genshinimpact</a> <a title="genshin" target="_blank" href="https://www.tiktok.com/tag/genshin?refer=embed">#genshin</a> <a title="genshinedit" target="_blank" href="https://www.tiktok.com/tag/genshinedit?refer=embed">#genshinedit</a> <a title="genshin41" target="_blank" href="https://www.tiktok.com/tag/genshin41?refer=embed">#genshin41</a> <a title="wriothesley" target="_blank" href="https://www.tiktok.com/tag/wriothesley?refer=embed">#wriothesley</a> <a title="wriothesleygenshin" target="_blank" href="https://www.tiktok.com/tag/wriothesleygenshin?refer=embed">#wriothesleygenshin</a> <a title="wriothesleygenshinimpact" target="_blank" href="https://www.tiktok.com/tag/wriothesleygenshinimpact?refer=embed">#wriothesleygenshinimpact</a> <a title="wriothesleyedit" target="_blank" href="https://www.tiktok.com/tag/wriothesleyedit?refer=embed">#wriothesleyedit</a> <a target="_blank" title="♬ toxic slowed remix - atlantics" href="https://www.tiktok.com/music/toxic-slowed-remix-7289487474873633542?refer=embed">♬ toxic slowed remix - atlantics</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-    </span>
-
-    <span class="section">
-        <h1 class="section-title">Chapter 9: Audio And Video</h1>
-        
-    </span>
+    <p>
+      <a style="cursor: wait" href="https://www.youtube.com/@pyrocynical">Pyrocynical YouTube</a>
+    </p>
+  </div>
 </body>
 </html>
