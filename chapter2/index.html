@@ -7,8 +7,57 @@
   <title>Learning HTML</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="toc-gen.js"></script>
+
+  <style>
+    .navbaritem {
+      background-color: rgb(127, 201, 182);
+      margin-top: auto; 
+      margin-bottom: auto;
+      padding: 0.75rem;
+      border-radius: 0.5cm;
+    }
+    .navbaritem:hover {
+      background-color:rgb(127, 201, 158);
+      cursor: pointer;
+    }
+
+    .navbarcontainer {
+      display: flex; 
+      flex: content; 
+      flex-direction: row; 
+      justify-content: center;
+      gap: 2rem;
+    }
+    .navbar {
+      position: fixed; 
+      top: 0px; 
+      width: 100vw; 
+      transform: translateX(-10px);
+      height: 100px; 
+      background-color: cadetblue; 
+      z-index: 50; 
+      color: white;
+    }
+    .navbartitle {
+      text-align: center;
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+
+    }
+  </style>
 </head>
 <body>
+  <div style="height: 110px"></div>
+  <div class="navbar">
+      <div class="navbartitle"><h2 class="navbartitle">HTML things</h2></div>
+      <div class="navbarcontainer">
+        <div class="navbaritem">A nice fat button</div>
+        <div class="navbaritem">A nice fat button</div>
+        <div class="navbaritem">A nice fat button</div>
+        <div class="navbaritem">A nice fat button</div>
+      </div>
+  </div>
+
   <div class="site-title">
     <h1 class="site-title-header">HTML things</h1>
     <p style="color: white;">Andero Magi TARge23</p>
